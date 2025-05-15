@@ -1,19 +1,16 @@
-/*                      Reset                           */
-   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+/* Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
   
   
-/*          Fuente general para todas las paginas       */
-    body {
-    
-    background-color: gray;            /* Fondo gris oscuro */
-
-    line-height: 1.6;                     /* Espaciado entre lineas */
-    
-  }
+/*  Fuente general para todas las paginas */
+body {
+background-color: gray;            /* Fondo gris oscuro */
+line-height: 1.6;                     /* Espaciado entre lineas */
+}
   
   
   /* ============================== */
@@ -23,26 +20,24 @@
 
 
 
-    .header {
+header {
   background-image: url("https://img.freepik.com/fotos-premium/accesorios-plomeria-piezas-tuberia-conector-laton-valvula-agua-tuberia_263512-1642.jpg");
   background-size: 75%;
-  background-position: 75%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
-  color: hsl(26, 64%, 55%);
+  background-position: center;
+  background-color: #00000080; /* negro con opacidad */
+  color: #ffa64d; /* reemplazo del hsl(26, 64%, 55%) */
   text-align: center;
-  margin: 0;
   padding: 40px 20px;
-  font-size: 2.5em;
+  font-size: 1.5em;
   font-family: "Share Tech", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  height: 18vh; /* ocupa toda la pantalla */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); /* para mejorar la legibilidad */
+  min-height: 30vh;
+  text-shadow: 3px 3px 3px #000000b3; /* sombra más simple en hex */
 }
+
   
 
   
