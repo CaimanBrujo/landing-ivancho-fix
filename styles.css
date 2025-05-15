@@ -29,15 +29,22 @@ header {
 /*              Main              */
 /* ============================== */
 /* Titulo de seccion*/
+
+.espacio-color {
+background-color: #444;
+height: 30px;
+width: 100%;
+}
+
 h2 {
     color: #f5f5f5b2;
     font-size: 1.6rem;
-    margin-top: 20px;
     font-family: sans-serif;
     text-align: center;
     border: 1px solid #f5f5f5b2;
     background-color: #2e2e2e;
 }
+
 
 /* Estilo NAV*/
 nav {
