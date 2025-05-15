@@ -32,7 +32,7 @@ header {
 h2 {
     color: #f5f5f5b2;
     font-size: 1.6rem;
-    margin-bottom: 20px;
+   
     margin-top: 20px;
     font-family: sans-serif;
     text-align: center;
@@ -174,3 +174,28 @@ button:hover {
   background-color: #f0b700;
 }
 
+/* Estilo NAV*/
+nav {
+  background-color: #444;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  
+  color: #ffa64d;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffffff;
+}
