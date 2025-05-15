@@ -80,17 +80,36 @@ button:hover {
 }
 
 .imagen-hover {
-  position: absolute;
-  top: 0%;
-  left: 100%;
-  display: none;
-  background: #ffffff40;
-  padding: 10px;
-  border: 4px solid #ccc;
-  z-index: 100;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+    background: #ffffff40;
+    padding: 10px;
+    border: 4px solid #ccc;
+    z-index: 100;
 }
-
 
 .boton-contenedor:hover .imagen-hover {
-  display: block;
+    display: block;
 }
+
+/* Estilo para el procedimiento*/
+.procedimiento {
+  margin: 40px auto;
+  max-width: 700px;
+  text-align: center; /* Centra el bloque */
+}
+
+.procedimiento ol {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-left: 20px;
+  margin: 0 auto;
+}
+
+.procedimiento ol li {
+  text-align: left;   /* Texto alineado a la izquierda */
+  margin: 10px 0;
+}
+
