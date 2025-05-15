@@ -1,0 +1,115 @@
+/*                      Reset                           */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+/*          Fuente general para todas las paginas       */
+    body {
+    
+    background-color: gray;            /* Fondo gris oscuro */
+
+    line-height: 1.6;                     /* Espaciado entre lineas */
+    
+  }
+  
+  
+  /* ============================== */
+  /*              Header            */
+  /* ============================== */
+  
+
+
+
+    .header {
+  background-image: url("https://img.freepik.com/fotos-premium/accesorios-plomeria-piezas-tuberia-conector-laton-valvula-agua-tuberia_263512-1642.jpg");
+  background-size: 75%;
+  background-position: 75%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mayor legibilidad */
+  color: hsl(26, 64%, 55%);
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
+  font-size: 2.5em;
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  height: 18vh; /* ocupa toda la pantalla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7); /* para mejorar la legibilidad */
+}
+  
+
+  
+  /* ============================== */
+  /*              Main              */
+  /* ============================== */
+
+  
+  /* Titulo de seccion*/
+    .h2 {
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+    text-align:center; 
+    text-decoration: underline;
+    margin-left: 15px               /* Centra titulos */
+  }
+  
+  /* Parrafo de seccion */
+    .h3 {
+    color: rgba(0, 0, 0, 0.699);
+    font-size: 1.6rem;
+    margin-bottom: 30px;
+    font-family: s;
+    margin-left: 30px               /* Centra titulos */
+  }
+
+  ul {
+  margin-left: 40px;
+  padding-left: 40px;
+}
+
+  
+    button {
+    background-color: #595553;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 10px 
+    
+  }
+
+    button:hover {
+    background-color: #e0a400;
+    
+  }
+
+.boton-contenedor {
+  position: relative;
+  display: inline-block;
+  margin: absolute;
+}
+
+.imagen-hover {
+  position: absolute;
+  top: 0%;             /* Justo debajo del botón */
+  left: 100%;
+  display: none;
+  background: rgba(255, 255, 255, 0.252);
+  padding: 10px;
+  border: 4px solid #ccc;
+  z-index: 100;
+}
+
+.boton-hover:hover + .imagen-hover {
+  display: block;
+}
