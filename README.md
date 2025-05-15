@@ -1,87 +1,69 @@
-# Técnico en Casa – Guía Interactiva para Reparación de Grifería
+# Técnico en Casa – Interactive Guide for Faucet Repair
 
-Sitio web educativo que explica cómo cambiar un o'ring en una canilla paso a paso. Incluye contenido visual, herramientas necesarias, instrucciones detalladas y una encuesta de feedback.
-
----
-
-## 🚀 Objetivo
-
-Ayudar a cualquier persona a realizar una reparación básica del hogar sin necesidad de conocimientos previos de plomería.
+This website offers a visual, step-by-step guide to changing the o-ring of a household faucet. Designed for non-technical users, it combines instructions, tool tips, a feedback form, and an embedded video to guide the repair process.
 
 ---
 
-## 🧠 Mejoras y correcciones realizadas
+## 🚀 Project Goal
 
-Este proyecto partió de un documento base que fue corregido, ordenado y optimizado por mí. A continuación, detallo los cambios principales:
-
-### 🧱 Estructura HTML:
-- ✅ Eliminación de etiquetas inválidas como `<p2>` y `<class="h2">`.
-- ✅ Reorganización de listas (`<ol>`, `<ul>`) con estructura semántica correcta.
-- ✅ Inclusión de `id` en las secciones para navegación interna (`herramientas`, `procedimiento`, `encuesta`).
-- ✅ Inclusión de un `nav` funcional con enlaces internos.
-- ✅ Incorporación de un `footer` limpio y funcional.
-
-### 🎨 Correcciones y mejoras en CSS:
-- ✅ Cambio de colores `rgba()` a valores hexadecimales con opacidad (`#000000b2`, `#ffffff40`).
-- ✅ Reemplazo de nombres de clase como `.h2` y `.h3` por etiquetas semánticas.
-- ✅ Simplificación del `header`, eliminando propiedades innecesarias (`flex` innecesario, `height` redundante).
-- ✅ Uniformización de `padding` y `margin` en todas las secciones para armonía visual.
-- ✅ Alineación de listas ordenadas: texto alineado a la izquierda pero bloque centrado.
-- ✅ Implementación de `hover` funcional para mostrar imágenes al pasar el mouse sobre cada botón.
-- ✅ Corrección de `margin: absolute;` inválido.
-- ✅ Creación de clases reutilizables como `.separador` para espaciado visual con fondo personalizado.
+Help anyone perform a basic home plumbing repair independently, without needing prior technical knowledge.
 
 ---
 
-## 📦 Contenido del sitio
+## 🧑‍💻 Original Author
 
-### 🔸 Header
-- Título llamativo sobre imagen de fondo
-- Tipografía personalizada (`Share Tech`)
-
-### 🔸 Navegación
-- Enlaces internos con scroll inmediato a:
-  - Herramientas
-  - Procedimiento
-  - Encuesta
-
-### 🔸 Herramientas
-- Lista de herramientas con botones
-- Imágenes visibles al pasar el mouse
-
-### 🔸 Procedimiento
-- Pasos detallados en lista ordenada `<ol>`
-- Centrado del bloque con texto alineado a la izquierda
-- Mejoras en jerarquía visual
-
-### 🔸 Encuesta
-- Formulario con campos requeridos (nombre y email)
-- Radio buttons para que solo se pueda elegir una opción
-- Campo para comentarios y opinión sobre herramienta más útil
-- Estilo coherente con el resto del sitio
-
-### 🔸 Video embebido
-- Video de YouTube centrado dentro de un contenedor
-- Estética consistente con el diseño general
-
-### 🔸 Footer
-- Enlaces a Instagram y WhatsApp
-- Derechos reservados en texto pequeño debajo
+**Iván Szilavecz**  
+Creator of the original HTML and CSS structure, content, and visual concept for the site.
 
 ---
 
-## 🧰 Tecnologías utilizadas
+## 🛠️ Corrections and Enhancements by Nicolás Bugedo (@caimanbrujo)
+
+I joined the project to improve its structure, fix semantic and visual issues, and leave the site production-ready. Here are the main changes I made:
+
+### 🧱 HTML Fixes
+
+- ✅ Removed invalid elements like `<p2>` and improper class names like `"h2"`.
+- ✅ Cleaned up list structures (`<ul>`, `<ol>`) and applied semantic best practices.
+- ✅ Added proper `id`s to sections for internal navigation.
+- ✅ Implemented a functional `<nav>` menu with anchor links.
+- ✅ Added a structured `<footer>` with links and legal info.
+
+### 🎨 CSS Improvements
+
+- ✅ Replaced `rgba()` with hex+alpha (`#000000b2`, `#ffffff40`) for cleaner color code.
+- ✅ Standardized spacing across all sections using consistent `padding` and `margin`.
+- ✅ Refactored the header to remove unnecessary Flexbox and use simpler layout.
+- ✅ Centered blocks like the procedure list, while keeping content left-aligned for readability.
+- ✅ Added hover effects to tool buttons to show an image preview.
+- ✅ Fixed invalid or unnecessary CSS like `margin: absolute;`.
+- ✅ Added visual separators (`.separador`) with height and background color.
+
+---
+
+## 📦 Website Sections
+
+- **Header**: With background image and centered title.
+- **Navigation**: Internal links to tools, procedure, and feedback.
+- **Tools**: Interactive buttons with image previews.
+- **Procedure**: Numbered list with clear formatting and spacing.
+- **Survey**: Form with required name/email and optional feedback.
+- **Video**: Embedded and centered YouTube video.
+- **Footer**: Instagram and WhatsApp links, and copyright.
+
+---
+
+## 📚 Technologies Used
 
 - HTML5
-- CSS3 (Flexbox, pseudo-clases, unidades relativas)
-- Google Fonts
-- YouTube embed
+- CSS3 (Flexbox, semantic elements, Google Fonts)
+- YouTube embed (iframe)
 
 ---
 
-## 📋 Cómo visualizarlo
+## 💻 How to Use
 
-1. Cloná el repositorio:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tuusuario/tecnico-en-casa.git
+   git clone https://github.com/caimanbrujo/tecnico-en-casa.git
