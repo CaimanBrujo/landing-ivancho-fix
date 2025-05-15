@@ -1,42 +1,34 @@
 /* Reset */
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-  
   
 /*  Fuente general para todas las paginas */
 body {
- background-color: gray;            /* Fondo gris oscuro */
- line-height: 1.6;                     /* Espaciado entre lineas */
+    background-color: gray;            /* Fondo gris oscuro */
+    line-height: 1.6;                     /* Espaciado entre lineas */
+    font-family: "Share Tech", sans-serif;
 }
-  
-  
+
 /* ============================== */
 /*              Header            */
 /* ============================== */
 header {
     background-image: url("https://img.freepik.com/fotos-premium/accesorios-plomeria-piezas-tuberia-conector-laton-valvula-agua-tuberia_263512-1642.jpg");
     background-position: center;
-    
     color: #ffa64d; /* reemplazo del hsl original */
     text-align: center;
     padding: 40px 20px;
     font-size: 1.5em;
-    font-family: "Share Tech", sans-serif;
     text-shadow: 3px 3px 3px #000000b3; /* sombra para legibilidad */
 }
 
-  
-
-  
-  /* ============================== */
-  /*              Main              */
-  /* ============================== */
-
-  
-  /* Titulo de seccion*/
+/* ============================== */
+/*              Main              */
+/* ============================== */
+/* Titulo de seccion*/
 h2 {
     color: #000000b2;
     font-size: 1.6rem;
@@ -47,7 +39,6 @@ h2 {
     text-decoration: underline;
 }
 
-  
 /* Tilos de secciones H3 */
 h3 {
     color: #000000b2;
@@ -69,40 +60,37 @@ h3 {
 }
 
 
-  
+/*Estilo de botones*/
 button {
     background-color: #595553;
     color: #fff;
     border: none;
     padding: 10px;
     font-weight: bold;
-    border-radius: 4px;
-    margin-left: 10px 
-    
-  }
+    border-radius: 4px; 
+}
 
-    button:hover {
+button:hover {
     background-color: #e0a400;
-    
-  }
+}
 
 .boton-contenedor {
-  position: relative;
-  display: inline-block;
-  margin: absolute;
+    position: relative;
+    display: inline-block;
 }
 
 .imagen-hover {
   position: absolute;
-  top: 0%;             /* Justo debajo del botón */
+  top: 0%;
   left: 100%;
   display: none;
-  background: rgba(255, 255, 255, 0.252);
+  background: #ffffff40;
   padding: 10px;
   border: 4px solid #ccc;
   z-index: 100;
 }
 
-.boton-hover:hover + .imagen-hover {
+
+.boton-contenedor:hover .imagen-hover {
   display: block;
 }
