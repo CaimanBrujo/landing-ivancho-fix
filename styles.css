@@ -31,9 +31,9 @@ header {
 /* Titulo de seccion*/
 
 .espacio-color {
-background-color: #444;
-height: 30px;
-width: 100%;
+    background-color: #444;
+    height: 30px;
+    width: 100%;
 }
 
 h2 {
@@ -48,38 +48,36 @@ h2 {
 
 /* Estilo NAV*/
 nav {
-  background-color: #444;
-  padding: 10px 0;
-  margin-bottom: 10px;
+    background-color: #444;
+    padding: 10px 0;
+    margin-bottom: 10px;
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .nav-links li a {
-  
-  color: #ffa64d;
-  font-weight: bold;
+    color: #ffa64d;
+    font-weight: bold;
 }
 
 .nav-links li a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
-/* Tilos de secciones H3 */
+/* Estilos de secciones H3 */
 h3 {
     color: #ffa64d;
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
 }
-
 
 /*Estilo para lista de herramientas */
 .herramientas ul {
@@ -130,9 +128,9 @@ button:hover {
 
 /* Estilo para el procedimiento*/
 .procedimiento {
-  margin: 40px auto;
-  max-width: 700px;
-  text-align: center; /* Centra el bloque */
+    margin: 40px auto;
+    max-width: 700px;
+    text-align: center;
   
 }
 
@@ -142,103 +140,108 @@ button:hover {
 }
 
 .procedimiento ol {
-  list-style: decimal;
-  list-style-position: inside;
-  padding-left: 20px;
+    list-style: decimal;
+    list-style-position: inside;
+    padding-left: 20px;
 }
 
 .procedimiento ol li {
-  text-align: left;   /* Texto alineado a la izquierda */
-  margin: 10px 0;
-  color: #fff;
+    text-align: left;   /* Texto alineado a la izquierda */
+    margin: 10px 0;
+    color: #fff;
 }
 
 /* Estilo de encuesta*/
 .encuesta {
-  background-color: #2e2e2e;
-  padding: 20px;
-  margin: 40px auto;
-  max-width: 500px;
-  border-radius: 8px;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 0.95rem;
+    background-color: #2e2e2e;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 500px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.95rem;
 }
 
 .encuesta h3 {
-  text-align: center;
-  margin-bottom: 15px;
-  color: #ffa64d;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #ffa64d;
 }
 
 .encuesta label, 
 .encuesta p {
-  display: block;
-  margin: 10px 0 5px;
+    display: block;
+    margin: 10px 0 5px;
 }
 
 .encuesta input[type="text"],
 .encuesta input[type="email"],
 .encuesta textarea {
-  width: 100%;
-  padding: 8px;
-  border-radius: 4px;
-  border: none;
-  margin-bottom: 10px;
-  font-family: sans-serif;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    font-family: sans-serif;
 }
 
 .encuesta input[type="radio"] {
-  margin-right: 8px;
+    margin-right: 8px;
 }
 
 .encuesta textarea {
-  resize: vertical;
+    resize: vertical;
 }
 
 .encuesta button {
-  background-color: #e0a400;
-  color: #000;
-  border: none;
-  padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 10px;
-  width: 100%;
+    background-color: #e0a400;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .encuesta button:hover {
-  background-color: #f0b700;
+    background-color: #f0b700;
 }
 
 /* Estilo Footer*/
 footer {
-  background-color: #2e2e2e;
-  color: #fff;
-  text-align: center;
-  padding: 20px 10px;
-  margin-top: 40px;
+    background-color: #2e2e2e;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
 }
 
 .footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
 }
 
 .footer-links a {
-  color: #ffa64d;
-  text-decoration: none;
-  font-weight: bold;
+    color: #ffa64d;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .footer-links a:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .footer-copy {
-  font-size: 0.8rem;
-  color: #bbbbbb;
+    font-size: 0.8rem;
+    color: #bbbbbb;
+}
+
+/* Estilo Video*/
+.video {
+    text-align: center;
 }
