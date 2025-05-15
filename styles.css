@@ -32,12 +32,37 @@ header {
 h2 {
     color: #f5f5f5b2;
     font-size: 1.6rem;
-   
     margin-top: 20px;
     font-family: sans-serif;
     text-align: center;
     border: 1px solid #f5f5f5b2;
     background-color: #2e2e2e;
+}
+
+/* Estilo NAV*/
+nav {
+  background-color: #444;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  
+  color: #ffa64d;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  color: #ffffff;
 }
 
 /* Tilos de secciones H3 */
@@ -54,6 +79,7 @@ h3 {
     list-style: none;
     text-align: center;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .herramientas ul li {
@@ -100,13 +126,18 @@ button:hover {
   margin: 40px auto;
   max-width: 700px;
   text-align: center; /* Centra el bloque */
+  
+}
+
+.seccion-ancha {
+    background-color: #444;
+    padding: 10px;
 }
 
 .procedimiento ol {
   list-style: decimal;
   list-style-position: inside;
   padding-left: 20px;
-  margin: 0 auto;
 }
 
 .procedimiento ol li {
@@ -174,28 +205,3 @@ button:hover {
   background-color: #f0b700;
 }
 
-/* Estilo NAV*/
-nav {
-  background-color: #444;
-  padding: 10px 0;
-  margin-bottom: 10px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-links li a {
-  
-  color: #ffa64d;
-  font-weight: bold;
-}
-
-.nav-links li a:hover {
-  color: #ffffff;
-}
