@@ -7,7 +7,7 @@
   
 /*  Fuente general para todas las paginas */
 body {
-    background-color: gray;            /* Fondo gris oscuro */
+    background-color: #3c3c3c;            /* Fondo gris oscuro */
     line-height: 1.6;                     /* Espaciado entre lineas */
     font-family: "Share Tech", sans-serif;
 }
@@ -30,7 +30,7 @@ header {
 /* ============================== */
 /* Titulo de seccion*/
 h2 {
-    color: #000000b2;
+    color: #f5f5f5b2;
     font-size: 1.6rem;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -41,7 +41,7 @@ h2 {
 
 /* Tilos de secciones H3 */
 h3 {
-    color: #000000b2;
+    color: #ffa64d;
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
@@ -111,5 +111,65 @@ button:hover {
 .procedimiento ol li {
   text-align: left;   /* Texto alineado a la izquierda */
   margin: 10px 0;
+  color: #fff;
+}
+
+/* Estilo de encuesta*/
+.encuesta {
+  background-color: #2e2e2e;
+  padding: 20px;
+  margin: 40px auto;
+  max-width: 500px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 0.95rem;
+}
+
+.encuesta h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #ffa64d;
+}
+
+.encuesta label, 
+.encuesta p {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.encuesta input[type="text"],
+.encuesta input[type="email"],
+.encuesta textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+.encuesta input[type="radio"] {
+  margin-right: 8px;
+}
+
+.encuesta textarea {
+  resize: vertical;
+}
+
+.encuesta button {
+  background-color: #e0a400;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.encuesta button:hover {
+  background-color: #f0b700;
 }
 

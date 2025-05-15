@@ -93,8 +93,42 @@
 
         
     <div class="encuesta">
+        <h3>¿Pudiste realizar el procedimiento?</h3>
 
+        <form>
+            <label for="nombre">Nombre*</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>¿Pudiste completar el procedimiento?</p>
+            <label>
+            <input type="radio" name="resultado" value="exito" required>
+            Sí, lo pude hacer correctamente
+            </label>
+
+            <label>
+            <input type="radio" name="resultado" value="problemas">
+            Tuve algunos problemas
+            </label>
+
+            <label>
+            <input type="radio" name="resultado" value="no-pude">
+            No lo pude hacer
+            </label>
+
+            <p>¿Qué herramienta te resultó más útil?</p>
+            <input type="text" name="herramienta_util" placeholder="Ej: Pico de loro">
+
+            <label for="comentarios">¿Querés contarnos tu experiencia?</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribí tu experiencia acá..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
     </div>
+
+
     
 </main>
     
