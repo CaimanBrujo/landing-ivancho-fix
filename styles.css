@@ -205,3 +205,33 @@ button:hover {
   background-color: #f0b700;
 }
 
+/* Estilo Footer*/
+footer {
+  background-color: #2e2e2e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #ffa64d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  color: #bbbbbb;
+}
