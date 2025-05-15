@@ -36,7 +36,8 @@ h2 {
     margin-top: 20px;
     font-family: sans-serif;
     text-align: center;
-    text-decoration: underline;
+    border: 1px solid #f5f5f5b2;
+    background-color: #2e2e2e;
 }
 
 /* Tilos de secciones H3 */
@@ -62,7 +63,7 @@ h3 {
 
 /*Estilo de botones*/
 button {
-    background-color: #595553;
+    background-color: #2e2e2e;
     color: #fff;
     border: none;
     padding: 10px;
